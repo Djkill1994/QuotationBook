@@ -1,0 +1,39 @@
+body, .background-window, .window-quote, .quote{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: rgba(26,26,27,0.85);
+    border-radius: 35px;
+}
+.background-window{
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.window-quote{
+    background-color: silver;
+    height: 335px;
+    width: 335px;
+    margin: 15px;
+    padding: 15px;
+    min-width: 335px;
+}
+.quote{
+    background-color: aqua;
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    padding: 10px;
+}
+.generate-quote{
+    background-color: brown;
+    height: 100px;
+    width: 70px;
+}
+.author{
+    background-color: blanchedalmond;
+    height: 70px;
+    width: 50px;
+}
