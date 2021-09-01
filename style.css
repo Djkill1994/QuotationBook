@@ -1,7 +1,7 @@
 body, .background-window, .window-quote, .quote{
     display: flex;
     justify-content: center;
-    margin: 100px;
+    /*margin: 100px;*/
     background-color: rgba(26,26,27,0.85);
     border-radius: 35px;
 }
@@ -21,19 +21,37 @@ body, .background-window, .window-quote, .quote{
     min-width: 335px;
 }
 .quote{
-    background-color: aqua;
-    height: 270px;
-    width: 270px;
+    background-color: silver;
+    position: absolute;
+    height: 250px;
+    width: 320px;
     margin: 10px;
     padding: 10px;
+    top: 100px;
+    font-size: 20px;
+    font-family: 'Reggae One', cursive;
 }
-.generate-quote{
-    background-color: brown;
-    height: 100px;
-    width: 70px;
+.generate-quote-button{
+    position: absolute;
+    background-color: silver;
+    height: 40px;
+    width: 120px;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-family: 'Reggae One', cursive;
+    font-size: 12px;
+}
+.generate-quote-button:hover{
+    background-color: gray;
+    color: white;
 }
 .author{
-    background-color: blanchedalmond;
-    height: 70px;
-    width: 50px;
+    height: 30px;
+    width: 170px;
+    position: absolute;
+    top: 320px;
+    left: 630px;
+    font-size: 16px;
+    font-family: 'Reggae One', cursive;
+    color: rosybrown;
 }
