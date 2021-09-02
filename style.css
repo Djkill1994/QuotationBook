@@ -1,7 +1,6 @@
 body, .background-window, .window-quote, .quote{
     display: flex;
     justify-content: center;
-    /*margin: 100px;*/
     background-color: rgba(26,26,27,0.85);
     border-radius: 35px;
 }
@@ -20,25 +19,26 @@ body, .background-window, .window-quote, .quote{
     padding: 15px;
     min-width: 335px;
 }
+.quote, .generate-quote-button, .author{
+    position: absolute;
+    font-family: 'Reggae One', cursive;
+}
+
 .quote{
     background-color: silver;
-    position: absolute;
     height: 250px;
     width: 320px;
     margin: 10px;
     padding: 10px;
     top: 100px;
     font-size: 20px;
-    font-family: 'Reggae One', cursive;
 }
 .generate-quote-button{
-    position: absolute;
     background-color: silver;
     height: 40px;
     width: 120px;
     margin-left: 20px;
     border-radius: 30px;
-    font-family: 'Reggae One', cursive;
     font-size: 12px;
 }
 .generate-quote-button:hover{
@@ -48,10 +48,8 @@ body, .background-window, .window-quote, .quote{
 .author{
     height: 30px;
     width: 170px;
-    position: absolute;
     top: 320px;
     left: 630px;
     font-size: 16px;
-    font-family: 'Reggae One', cursive;
     color: rosybrown;
 }
